@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">Quora For Engineering.</h1>
+        <p class="hero-paragraph">
+           QES features questions and answers on a wide range of topics in
+        Engineering. Our notion of a better-connected engineering community to tackle all kinds of
+        academic and non Academical questions and problems would make the engineering
+        community better. 
+        </p>
+        <div class="hero-options">
+          
+            <a href="{% url 'stackbase:question-lists' %}" class="btn btn-developers" style="margin-left: 5px;">Latest Questions</a>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+{% endblock content %}
